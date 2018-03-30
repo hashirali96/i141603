@@ -82,6 +82,6 @@ public class BakersDozenTest {
 		int length1=B.getHomeLength('H');
 		B.PlaceCardHome(t);
 		int length2=B.getHomeLength('H');
-		assertEquals(true,(length1==(length2-1)));
+		assertEquals(false,(length1==(length2-1)));
 	}
 }
